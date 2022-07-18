@@ -141,7 +141,7 @@ CORS_ALLOW_METHODS = [
 ]
 
 # For Production server Only - Uncomment for developement server.
-rest_framework = {
+REST_FRAMEWORK = {
     'DEFAULT_RENDERER_CLASSES': (
         'rest_framework.renderers.JSONRenderer',
     )
