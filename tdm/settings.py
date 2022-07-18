@@ -139,3 +139,11 @@ CORS_ALLOW_METHODS = [
     "POST",
     "PUT",
 ]
+
+# For Production server Only - Uncomment for developement server.
+import rest_framework as rf
+rf = {
+    'DEFAULT_RENDERER_CLASSES': (
+        'rest_framework.renderers.JSONRenderer',
+    )
+}
