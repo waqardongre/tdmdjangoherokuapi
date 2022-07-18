@@ -5,7 +5,6 @@ from rest_framework import status
 from .serializers import FileSerializer
 
 import os
-from os import listdir
 from os.path import isfile, join
 #from django.contrib.staticfiles.templatetags.staticfiles import static
 from django.conf import settings
