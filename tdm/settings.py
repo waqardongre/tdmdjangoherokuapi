@@ -147,4 +147,4 @@ REST_FRAMEWORK = {
     )
 }
 
-developer = 'Mohamed Waqar Zulfeqar Dongre'
+developer = 'Developer Name: Mohamed Waqar Zulfeqar Dongre   email: waqardongre@gmail.com   Github: https://github.com/waqardongre'
