@@ -129,7 +129,8 @@ CORS_ALLOW_CREDENTIALS = True
 CORS_ALLOWED_ORIGINS = [
     #"https://example.com",
     # "http://localhost:4200",
-    "https://heady-shocking-notebook.glitch.me"
+    "https://heady-shocking-notebook.glitch.me",
+    "https://tdmangularapp.herokuapp.com"
 ]
 
 CORS_ALLOW_METHODS = [
