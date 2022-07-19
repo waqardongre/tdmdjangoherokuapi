@@ -127,7 +127,7 @@ CORS_ORIGIN_ALLOW_ALL = False
 CORS_ALLOW_CREDENTIALS = True
 
 CORS_ALLOWED_ORIGINS = [
-    "https://youthful-dull-airmail.glitch.me",
+    "https://olive-nonstop-artichoke.glitch.me",
 ]
 
 CORS_ALLOW_METHODS = [
