@@ -13,7 +13,7 @@ BASE_DIR = os.path.dirname(__file__).replace('\\','/')
 #SECRET_KEY = 'django-insecure-do-0hw@z@d*o_z6h-69s#5kck8n)4bm7xtt_ob4fcmp(qkfldz'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-#DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['']
 
@@ -127,7 +127,7 @@ CORS_ORIGIN_ALLOW_ALL = False
 CORS_ALLOW_CREDENTIALS = True
 
 CORS_ALLOWED_ORIGINS = [
-    "https://placid-pyrite-pecorino.glitch.me"
+    "https://ablaze-fishy-onion.glitch.me"
 ]
 
 CORS_ALLOW_METHODS = [
