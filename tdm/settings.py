@@ -128,7 +128,8 @@ CORS_ALLOW_CREDENTIALS = True
 
 CORS_ALLOWED_ORIGINS = [
     #"https://example.com",
-    "http://localhost:4200"
+    # "http://localhost:4200",
+    "https://heady-shocking-notebook.glitch.me"
 ]
 
 CORS_ALLOW_METHODS = [
@@ -147,4 +148,4 @@ REST_FRAMEWORK = {
     )
 }
 
-developer = 'Developer Name: Mohamed Waqar Zulfeqar Dongre   email: waqardongre@gmail.com   Github: https://github.com/waqardongre'
+developer = "Developer's Name: Mohamed Waqar Zulfeqar Dongre   email: waqardongre@gmail.com   Github: https://github.com/waqardongre"
