@@ -154,7 +154,7 @@ CORS_ORIGIN_ALLOW_ALL = True
 #SECRET_KEY = 'django-insecure-do-0hw@z@d*o_z6h-69s#5kck8n)4bm7xtt_ob4fcmp(qkfldz'
 
 CORS_ALLOWED_ORIGINS = [
-    "https://boom-defiant-radon.glitch.me",
+    "https://boom-defiant-radon.glitch.me"
     #"https://localhost:4200"
 ]
 
