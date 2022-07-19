@@ -127,7 +127,8 @@ CORS_ORIGIN_ALLOW_ALL = False
 CORS_ALLOW_CREDENTIALS = True
 
 CORS_ALLOWED_ORIGINS = [
-    "https://broad-ethereal-actor.glitch.me"
+    "http://localhost:4200",
+    "https://heady-shocking-notebook.glitch.me"
 ]
 
 CORS_ALLOW_METHODS = [
