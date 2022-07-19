@@ -127,7 +127,7 @@ CORS_ORIGIN_ALLOW_ALL = False
 CORS_ALLOW_CREDENTIALS = True
 
 CORS_ALLOWED_ORIGINS = [
-    "https://prickle-far-animantarx.glitch.me"
+    "https://heavy-strong-town.glitch.me"
 ]
 
 CORS_ALLOW_METHODS = [
