@@ -9,9 +9,6 @@ BASE_DIR = os.path.dirname(__file__).replace('\\','/')
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
 
-# SECURITY WARNING: keep the secret key used in production secret!
-#SECRET_KEY = 'django-insecure-do-0hw@z@d*o_z6h-69s#5kck8n)4bm7xtt_ob4fcmp(qkfldz'
-
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
@@ -123,12 +120,7 @@ MEDIA_URL = '/media/'
 
 MEDIA_ROOT = os.path.join(BASE_DIR, "media/3DModels/")
 
-CORS_ORIGIN_ALLOW_ALL = False
 CORS_ALLOW_CREDENTIALS = True
-
-CORS_ALLOWED_ORIGINS = [
-    "https://peat-heliotrope-teller.glitch.me"
-]
 
 CORS_ALLOW_METHODS = [
     "DELETE",
@@ -145,5 +137,25 @@ REST_FRAMEWORK = {
         'rest_framework.renderers.JSONRenderer',
     )
 }
+
+
+
+
+# To run on Heroku like SERVER make changes below settings:
+# Make "CORS_ORIGIN_ALLOW_ALL = False"
+# comment SECRET_KEY as its declared in .env file
+# Comment or remove "https://localhost:4200" local server link from CORS_ALLOWED_ORIGINS
+# To run on LOCAL server do the opposite.
+
+CORS_ORIGIN_ALLOW_ALL = True
+#CORS_ORIGIN_ALLOW_ALL = True
+
+# SECURITY WARNING: keep the secret key used in production secret!
+#SECRET_KEY = 'django-insecure-do-0hw@z@d*o_z6h-69s#5kck8n)4bm7xtt_ob4fcmp(qkfldz'
+
+CORS_ALLOWED_ORIGINS = [
+    "https://boom-defiant-radon.glitch.me",
+    #"https://localhost:4200"
+]
 
 developer = "Developer's Name: Mohamed Waqar Zulfeqar Dongre   email: waqardongre@gmail.com   Github: https://github.com/waqardongre"
