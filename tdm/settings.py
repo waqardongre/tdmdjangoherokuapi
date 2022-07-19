@@ -127,7 +127,7 @@ CORS_ORIGIN_ALLOW_ALL = False
 CORS_ALLOW_CREDENTIALS = True
 
 CORS_ALLOWED_ORIGINS = [
-    "https://sapphire-chlorinated-screwdriver.glitch.me"
+    "https://placid-pyrite-pecorino.glitch.me"
 ]
 
 CORS_ALLOW_METHODS = [
