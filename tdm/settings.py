@@ -127,7 +127,7 @@ CORS_ORIGIN_ALLOW_ALL = False
 CORS_ALLOW_CREDENTIALS = True
 
 CORS_ALLOWED_ORIGINS = [
-    "https://ablaze-fishy-onion.glitch.me"
+    "https://prism-twisty-grade.glitch.me"
 ]
 
 CORS_ALLOW_METHODS = [
