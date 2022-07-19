@@ -128,6 +128,7 @@ CORS_ALLOW_CREDENTIALS = True
 
 CORS_ALLOWED_ORIGINS = [
     "https://olive-nonstop-artichoke.glitch.me",
+    "https://localhost:4200"
 ]
 
 CORS_ALLOW_METHODS = [
