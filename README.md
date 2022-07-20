@@ -1,9 +1,10 @@
 ## 3D Models Manager
 
     This web application is developed on Angular 7.3.1 and Django Rest Framework 4.0.6(Django Rest framework 3.13.1) 
-    in which we can upload and view 3D models saved in .glb and .fbx format.
+    in which we can upload and view 3D models saved in .glb and .fbx format which are exported
+     from Blender and 3ds MAX like Apps and also available on Sketchfab.com like websites.
 
-    Both Front end and backend is developed following best practices.
+    Both front end and backend is developed following best practices.
 
     App has perfect input validations and a beautiful and responsive Bootstrap styled UI which is able 
     to run offline because Bootstrap style css file is saved in the Angular project.
@@ -11,9 +12,9 @@
 
 #### This repository is DRF(Django Rest Framework) API server for this App.
 
-## To run this project on your local system follow below instructions:
+## Running this App on your local system server:
 
-#### 1. I have used Ubuntu 20.4 LTS to develop and deploy it. For Windows its almost same procedure but I'll update soon how to run it in Windows.
+#### 1. I have used Ubuntu 20.4 LTS to develop and deploy it. For Windows you can use Ubuntu 20.4 in WSL or in a Virtual Machine Software like Oracle Virtual Box. Still I'll try to update soon about how to run it in Windows.
 #### 2. Downlaod or clone this git repository which is the server developed in Django rest framework API for our app.
 #### 3. Open up the Terminal in the project root folder.
 #### 4. To activate virtual python environment enter this command: source venv/bin/activate
@@ -37,14 +38,14 @@
 ###### Open up this link http://localhost:4200/ in Chrome or Firefox. The app should be running.
 ###### To confirm app is working API open up web developer tool in the browser, if you see "uploadService.getAll observable: ["initializing_file.txt"]" in console the App is working. You can try upload or view 3D models in it.
 
-## Deploying it online
+## Deploying it online:
 
 #### 10. To make the Angular App live, do almost the opposite of step 9:
 ###### Open up global.js file in this path /src/app/ in the Angular project root folder.
 ###### Uncomment this line of code: export const DJANGO_SERVER = "https://tdmdjangoapi.herokuapp.com/"
 ###### Comment this line of code: export const DJANGO_SERVER = "http://localhost:8000/"
 ###### Create an account on glitch.com, download git cli, create a git repository and push it in cli same as we push other git repositories. 
-###### Go to glitch.com in create new project tab select import from git and paste your git repository link there. It will load your git code. 
+###### Go to glitch.com , in create new project tab on top right corner select import from git and paste your git repository link there. It will load your git code. 
 ###### Copy your apps live link from glitch project share button on top right corner or save it somewhere we will need it while deploying Django API in next step.
 
 #### 11. To make the Dajngo API live do almost the opposite of step 5:
