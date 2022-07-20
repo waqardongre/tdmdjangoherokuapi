@@ -41,12 +41,12 @@ Thanks for reading it.
 More related code links:
 Live App: Glitch live: https://boom-defiant-radon.glitch.me
     
-    Angular 7.3.1 App frontend:
+   Angular 7.3.1 App frontend:
         Glitch live: https://boom-defiant-radon.glitch.me
         Glitch code: https://glitch.com/edit/#!/boom-defiant-radon
         Github rep.: https://github.com/waqardongre/tdmangularglitchapp
 
-    Django 4.0.6 - Django Rest framework 3.13.1 - Api backend Server:
+   Django 4.0.6 - Django Rest framework 3.13.1 - Api backend Server:
         Heroku live: https://tdmdjangoapi.herokuapp.com
         Heroku live page: https://tdmdjangoapi.herokuapp.com/tdmodels/
         Git rep.: https://github.com/waqardongre/tdmdjangoherokuapi.git
