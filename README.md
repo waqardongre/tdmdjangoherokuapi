@@ -5,8 +5,8 @@
 
     Both Front end and backend is developed following best practices.
 
-    App have perfect input validations and a Beautiful Bootstrab styled UI which is able 
-    to run offline because Bootstrab style css file is saved in the Angular project.
+    App have perfect input validations and a Beautiful Bootstrap styled UI which is able 
+    to run offline because Bootstrap style css file is saved in the Angular project.
 
 ## This repository is DRF(Django Rest Framework) API server for this App.
 
