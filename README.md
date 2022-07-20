@@ -1,10 +1,10 @@
 3D Models Manager
 
-    This is a web application made on Angular 7.3.1 and Django Rest Framework 4.0.6(Django Rest framework 3.13.1) in which we can upload and view 3D models     saved in .glb and .fbx format.
+  This is a web application made on Angular 7.3.1 and Django Rest Framework 4.0.6(Django Rest framework 3.13.1) in which we can upload and view 3D models     saved in .glb and .fbx format.
 
-    Both Front end and backend is developed following best practices.
+  Both Front end and backend is developed following best practices.
 
-    App have perfect input validations and a Beautiful Bootstrab styled UI which is able to run offline because Bootstrab style css file is saved in           Angular project.
+  App have perfect input validations and a Beautiful Bootstrab styled UI which is able to run offline because Bootstrab style css file is saved in           Angular project.
 
 This repository is DRF(Django Rest Framework) API server for this App.
 
