@@ -1,14 +1,16 @@
-3D Models Manager
+# 3D Models Manager
 
-  This is a web application made on Angular 7.3.1 and Django Rest Framework 4.0.6(Django Rest framework 3.13.1) in which we can upload and view 3D models     saved in .glb and .fbx format.
+    This is a web application made on Angular 7.3.1 and Django Rest Framework 4.0.6(Django Rest framework 3.13.1) 
+    in which we can upload and view 3D models saved in .glb and .fbx format.
 
-  Both Front end and backend is developed following best practices.
+    Both Front end and backend is developed following best practices.
 
-  App have perfect input validations and a Beautiful Bootstrab styled UI which is able to run offline because Bootstrab style css file is saved in           Angular project.
+    App have perfect input validations and a Beautiful Bootstrab styled UI which is able 
+    to run offline because Bootstrab style css file is saved in the Angular project.
 
-This repository is DRF(Django Rest Framework) API server for this App.
+## This repository is DRF(Django Rest Framework) API server for this App.
 
-To run this project on your local system follow below instructions:
+## To run this project on your local system follow below instructions:
 
 1. I have used Ubuntu 20.4 LTS to develop and deploy it. For Windows its almost same procedure but I'll update soon how to run it in Windows.
 2. Downlaod or clone this git repository which is the server developed in Django rest framework API for our app.
@@ -36,18 +38,20 @@ To run this project on your local system follow below instructions:
     To confirm app is working API open up web developer tool in the browser, if you see "uploadService.getAll observable: ["initializing_file.txt"]"
     in console the App is working. You can try upload or view 3D models in it.
 
-Thanks for reading it.
 
 More related code links:
 Live App: Glitch live: https://boom-defiant-radon.glitch.me
     
-   Angular 7.3.1 App frontend:
+    Angular 7.3.1 App frontend:
         Glitch live: https://boom-defiant-radon.glitch.me
         Glitch code: https://glitch.com/edit/#!/boom-defiant-radon
         Github rep.: https://github.com/waqardongre/tdmangularglitchapp
 
-   Django 4.0.6 - Django Rest framework 3.13.1 - Api backend Server:
+    Django 4.0.6 - Django Rest framework 3.13.1 - Api backend Server:
         Heroku live: https://tdmdjangoapi.herokuapp.com
         Heroku live page: https://tdmdjangoapi.herokuapp.com/tdmodels/
         Git rep.: https://github.com/waqardongre/tdmdjangoherokuapi.git
         Git-Heroku rep.: https://git.heroku.com/tdmdjangoapi.git
+
+
+Thanks for reading it.
