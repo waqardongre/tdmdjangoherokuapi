@@ -38,7 +38,7 @@
 
 
 More related code links:
-Live App: Glitch live: https://boom-defiant-radon.glitch.me
+    Live App: Glitch: https://boom-defiant-radon.glitch.me
     
     Angular 7.3.1 App frontend:
         Glitch live: https://boom-defiant-radon.glitch.me
