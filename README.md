@@ -33,7 +33,7 @@
 ###### Comment this line of code: export const DJANGO_SERVER = "https://tdmdjangoapi.herokuapp.com/"
 ###### Uncomment this line of code: export const DJANGO_SERVER = "http://localhost:8000/"
 ###### Now open terminal in the same IDE window and enter this code: ng serve
-###### open this link http://localhost:4200/ in Chrome or Firefox. App should be running.
+###### Open up this link http://localhost:4200/ in Chrome or Firefox. The app should be running.
 ###### To confirm app is working API open up web developer tool in the browser, if you see "uploadService.getAll observable: ["initializing_file.txt"]" in console the App is working. You can try upload or view 3D models in it.
 
 
