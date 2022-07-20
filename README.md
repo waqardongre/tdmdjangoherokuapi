@@ -1,6 +1,12 @@
 3D Models Manager
 
-This is Angular web application in which we can upload and view 3D models saved in .glb and .fbx formate.
+    This is a web application made on Angular 7.3.1 and Django Rest Framework 4.0.6(Django Rest framework 3.13.1) in which we can upload and view 3D models     saved in .glb and .fbx format.
+
+    Both Front end and backend is developed following best practices.
+
+    App have perfect input validations and a Beautiful Bootstrab styled UI which is able to run offline because Bootstrab style css file is saved in           Angular project.
+
+This repository is DRF(Django Rest Framework) API server for this App.
 
 To run this project on your local system follow below instructions:
 
@@ -31,3 +37,17 @@ To run this project on your local system follow below instructions:
     in console the App is working. You can try upload or view 3D models in it.
 
 Thanks for reading it.
+
+More related code links:
+Live App: Glitch live: https://boom-defiant-radon.glitch.me
+    
+    Angular 7.3.1 App frontend:
+        Glitch live: https://boom-defiant-radon.glitch.me
+        Glitch code: https://glitch.com/edit/#!/boom-defiant-radon
+        Github rep.: https://github.com/waqardongre/tdmangularglitchapp
+
+    Django 4.0.6 - Django Rest framework 3.13.1 - Api backend Server:
+        Heroku live: https://tdmdjangoapi.herokuapp.com
+        Heroku live page: https://tdmdjangoapi.herokuapp.com/tdmodels/
+        Git rep.: https://github.com/waqardongre/tdmdjangoherokuapi.git
+        Git-Heroku rep.: https://git.heroku.com/tdmdjangoapi.git
