@@ -43,9 +43,9 @@
 ###### Open up global.js file in this path /src/app/ in the Angular project root folder.
 ###### Uncomment this line of code: export const DJANGO_SERVER = "https://tdmdjangoapi.herokuapp.com/"
 ###### Comment this line of code: export const DJANGO_SERVER = "http://localhost:8000/"
-###### Open up this link http://localhost:4200/ in Chrome or Firefox. The app should be running.
-###### To confirm app is working API open up web developer tool in the browser, if you see "uploadService.getAll observable: ["initializing_file.txt"]" in console the App is working. You can try upload or view 3D models in it.
-###### Create an account on glitch.com, download git cli, create a git repository and push it in cli same as we push other git repositories. Go to glitch.com in create new project tab select import from git and paste your git repository link there. It will load your git code. Copy your apps live link from glitch project share button on top right corner or save it somewhere we will need it while deploying Django API in next step.
+###### Create an account on glitch.com, download git cli, create a git repository and push it in cli same as we push other git repositories. 
+###### Go to glitch.com in create new project tab select import from git and paste your git repository link there. It will load your git code. 
+###### Copy your apps live link from glitch project share button on top right corner or save it somewhere we will need it while deploying Django API in next step.
 
 #### 11. To make the Dajngo API live do almost the opposite of step 5:
 ###### Open up settings.py in Dajngo project folder tdm/ in visual studio code or your favorite IDE and do the following
