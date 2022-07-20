@@ -147,14 +147,14 @@ REST_FRAMEWORK = {
 # Comment or remove "https://localhost:4200" local server link from CORS_ALLOWED_ORIGINS
 # To run on LOCAL server do the opposite.
 
-CORS_ORIGIN_ALLOW_ALL = True
+CORS_ORIGIN_ALLOW_ALL = False
 #CORS_ORIGIN_ALLOW_ALL = True
 
 # SECURITY WARNING: keep the secret key used in production secret!
 #SECRET_KEY = 'django-insecure-do-0hw@z@d*o_z6h-69s#5kck8n)4bm7xtt_ob4fcmp(qkfldz'
 
 CORS_ALLOWED_ORIGINS = [
-    "https://boom-defiant-radon.glitch.me"
+    "https://boom-defiant-radon.glitch.me",
     #"https://localhost:4200"
 ]
 
