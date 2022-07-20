@@ -37,8 +37,10 @@
 ###### To confirm app is working API open up web developer tool in the browser, if you see "uploadService.getAll observable: ["initializing_file.txt"]" in console the App is working. You can try upload or view 3D models in it.
 
 
-More related code links:
+#### More related code links:
+    
     Live App: Glitch: https://boom-defiant-radon.glitch.me
+    
     
     Angular 7.3.1 App frontend:
         Glitch live: https://boom-defiant-radon.glitch.me
