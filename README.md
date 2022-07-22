@@ -44,10 +44,10 @@
 ###### Open up global.js file in this path /src/app/ in the Angular project root folder.
 ###### Uncomment this line of code: export const DJANGO_SERVER = "https://tdmdjangoapi.herokuapp.com/"
 ###### Comment this line of code: export const DJANGO_SERVER = "http://localhost:8000/"
-###### Create an account on glitch.com, download git cli, create a git repository and push it in cli same as we push other git repositories. 
-###### Go to glitch.com , in create new project tab on top right corner select import from git and paste your git repository URL there. It will load your git code. 
-###### Copy your apps live URL from glitch project share button on the top right corner and save it somewhere we will need it while deploying Django API in the next step no 11.
-###### This App wont work on the copied glitch live URL becuase we need to paste that URL in our Django API project to get access to API by our glitch URL and that is we are going to do next.  
+###### Create an account on glitch.com, download git CLI, create a git repository and push it in CLI same as we push other git repositories. 
+###### Go to glitch.com , create a new project/app on top right corner, select import from git and paste your git repository URL there. It will load your git repository contents. 
+###### Copy your apps live URL from glitch project SHARE button on the top right corner and save it somewhere, we will need it while deploying Django API in the step 11.
+###### For now the copied glitch live URL will not work, becuase we need to paste that URL in our Django API project to get access to API by our glitch URL and we are going to do it soon.
 
 #### 11. To make the Dajngo API live do almost the opposite of step 5:
 ###### Open up settings.py in Dajngo project folder tdm/ in visual studio code or your favorite IDE and do the following
