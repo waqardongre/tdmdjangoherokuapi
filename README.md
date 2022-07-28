@@ -1,12 +1,12 @@
 ## 3D Models Manager
 
-    This web application is developed on Angular 7.3.1 and Django Rest Framework 4.0.6(Django Rest framework 3.13.1) 
+    This web application is developed on Angular 7.3.1 and Django 4.0.6(Django Rest framework 3.13.1) 
     in which we can upload and view 3D models saved in .glb and .fbx format which are exported
      from Blender and 3ds MAX like Apps and also available on Sketchfab.com like websites.
 
     Both front end and backend is developed following best practices.
 
-    App has perfect input validations and a beautiful and responsive Bootstrap styled UI which is able 
+    App has almost perfect input validations and a beautiful and responsive Bootstrap styled UI which is able 
     to run offline because Bootstrap style css file is saved in the Angular project.
     This app can be run on any device which supports Mozilla Firefox or Google Chrome browsers.
 
