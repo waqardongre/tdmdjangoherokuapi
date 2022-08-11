@@ -40,26 +40,32 @@
 
 ## Deploying it online:
 
-#### 10. To make the Angular App live, do almost the opposite of step 9:
-###### Open up global.js file in this path /src/app/ in the Angular project root folder.
-###### Uncomment this line of code: export const DJANGO_SERVER = "https://tdmdjangoapi.herokuapp.com/"
-###### Comment this line of code: export const DJANGO_SERVER = "http://localhost:8000/"
-###### Create an account on glitch.com, download git cli, create a git repository and push it in cli same as we push other git repositories. 
-###### Go to glitch.com , in create new project tab on top right corner select import from git and paste your git repository URL there. It will load your git code. 
-###### Copy your apps live URL from glitch project share button on the top right corner and save it somewhere we will need it while deploying Django API in the next step no 11.
-###### This App wont work on the copied glitch live URL becuase we need to paste that URL in our Django API project to get access to API by our glitch URL and that is we are going to do next.  
-
-#### 11. To make the Dajngo API live do almost the opposite of step 5:
+#### 10. To make the Dajngo API live do almost the opposite of step 5 including below changes:
 ###### Open up settings.py in Dajngo project folder tdm/ in visual studio code or your favorite IDE and do the following
 ###### Go to the bottom end of the code or on line 150 you will find CORS_ORIGIN_ALLOW_ALL variable
 ###### Make it False like CORS_ORIGIN_ALLOW_ALL = False
 ###### Comment SECRET_KEY variable if it is uncommented because for heroku server it is saved in .env file.
 ###### Comment or remove "https://localhost:4200" local server URL in CORS_ALLOWED_ORIGINS variable
-###### Add or update Glitch Angular live URL which you copied in step 10 in CORS_ALLOWED_ORIGINS variable
-###### Create an account on heroku.com, download heroku cli, create heroku app and push it in cli as same as we push some code to a git repository, heroku will build the Django API and share the live URL.
-###### Now open up your Glitch Angular live URL which you copied in step 10, your app should be running on this URL of Glitch live server.
+###### Create an account on www.heroku.com, download Heroku CLI in your terminal, create heroku app and push using Heroku CLI as [we did here](https://devcenter.heroku.com/articles/git), heroku will build the Django API and copy the given "Heroku live URL" in the terminal.
 
-#### If you have any queries about this App feel free to reach me out at this email: waqardongre@gmail.com
+#### 11. To make the Angular App live, do almost the opposite of step 9 including below changes:
+###### Open up global.js file in this path /src/app/ in the Angular project root folder.
+###### Uncomment this line of code: export const DJANGO_SERVER = "https://tdmdjangoapi.herokuapp.com/"
+###### In the DJANGO_SERVER variable's value paste the copied "Heroku live URL" in the step 10.
+###### Comment this line of code: export const DJANGO_SERVER = "http://localhost:8000/"
+###### Create an account on glitch.com, download Git CLI in your terminal, create a git repository and push it in the Git CLI as same as we push any other Git repositories. Or follow these official steps to [add existing source code or repositories to GitHub from the command line using GitHub CLI or Git Commands](https://docs.github.com/en/get-started/importing-your-projects-to-github/importing-source-code-to-github/adding-locally-hosted-code-to-github)
+###### Go to glitch.com , in create new project tab on top right corner select import from git and paste your Angular App Git repository URL there. It will load your git code. 
+###### Copy your apps "Glitch Angular live URL" from glitch project share button on the top right corner and copy or save it somewhere we will need it while updating Django API's CORS_ALLOWED_ORIGINS variable in the next steps.
+###### This App wont work on the copied glitch live URL becuase we need to paste that URL in our Django API project to get access to API by our glitch URL and that is we are going to do next.
+###### Open up settings.py in the Django API project
+###### Go to the bottom end of the code or on line 150 you will find CORS_ORIGIN_ALLOW_ALL variable
+###### Add or update "Glitch Angular live URL" which you just copied as an array element in the CORS_ALLOWED_ORIGINS variable.
+###### You need to push the code again on www.heroku.com as we did in step 10 but just skip the step of creating new app on Heroku beacuase we just want to update our code to the same Heroku App. 
+###### Finally open up your "Glitch Angular live URL" in Chrome or firefox. Your app is deployed online.
+    
+#### Its quite big and may be confusing instructions but if you do it step by step and with patience it will definately work.
+    
+#### If you have any queries about this App feel free to reach me out at this email: waqardongre@gmail.com or messege me on linkedIn: https://www.linkedin.com/in/mowaqardongre/
 
 
 #### More related code links:
