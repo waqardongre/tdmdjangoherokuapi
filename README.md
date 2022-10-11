@@ -1,8 +1,8 @@
 ## 3D Models Manager
 
     This web application is developed on Angular 7.3.1 and Django 4.0.6(Django Rest framework 3.13.1) 
-    in which we can upload and view 3D models saved in .glb and .fbx format which are exported
-     from Blender and 3ds MAX like Apps and also available on Sketchfab.com like websites.
+    in which we can upload and view 3D models saved in only .glb format which are exported
+     from Blender and 3ds MAX like Apps and also available to download on Sketchfab.com like websites.
 
     Both front end and backend is developed following best practices.
 
